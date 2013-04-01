@@ -25,18 +25,19 @@ Or if you really hate your users, call multiple pranks for even more fun:
 
 ## What pranks are available?
 
-$.fool('fallingScrollbar');   //  Want the scrollbar to fall over?
-$.fool('rick');               //  The synonymous Rick Astley video, hidden off-screen
-$.fool('hiddenVideos');       //  Show some wonderfully annoying videos
-$.fool('vanishingElements');  //  Hide random elements as they interact
-$.fool('questionTime');       //  Sing Spongebob with your browser!
-$.fool('upsideDown');         //  Flip the page upside down!
-$.fool('h4xx0r');             //  Make the page 100% editable
-$.fool('wonky');              //  Make the page a little bit crooked
-$.fool('flash');              //  Makes the site flash on and off
-$.fool('crashAndBurn');       //  Runs an endless loop. This will kill your browser!
-$.fool('shutter');            //  Forces a shutter on the screen
-$.fool('unclickable');        //  Makes the page unclickable
+    $.fool('fallingScrollbar');   //  Want the scrollbar to fall over?
+    $.fool('rick');               //  The synonymous Rick Astley video, hidden off-screen
+    $.fool('hiddenVideos');       //  Show some wonderfully annoying videos
+    $.fool('vanishingElements');  //  Hide random elements as they interact
+    $.fool('questionTime');       //  Sing Spongebob with your browser!
+    $.fool('upsideDown');         //  Flip the page upside down!
+    $.fool('h4xx0r');             //  Make the page 100% editable
+    $.fool('wonky');              //  Make the page a little bit crooked
+    $.fool('flash');              //  Makes the site flash on and off
+    $.fool('crashAndBurn');       //  Runs an endless loop. This will kill your browser!
+    $.fool('shutter');            //  Forces a shutter on the screen
+    $.fool('unclickable');        //  Makes the page unclickable
+    $.fool('replaceWithCats');    //  Replace all Images with a random Cat GIF
 
 
 ## Who created it?

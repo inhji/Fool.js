@@ -137,6 +137,20 @@
 				unclickable: function() {
 					//  twitter.com/#!/idiot/status/180261881460690945
 					body.attr('style', 'pointer-events: none; -webkit-user-select: none; -moz-user-select: none; cursor: wait;');
+				},
+
+				replaceWithCats: function() {
+					var rand = new Array(
+						"http://s3-ec.buzzfed.com/static/enhanced/web03/2012/9/5/14/anigif_enhanced-buzz-18955-1346868358-7.gif",
+						"http://s3-ec.buzzfed.com/static/enhanced/terminal05/2012/9/5/14/anigif_enhanced-buzz-30312-1346868350-8.gif",
+						"http://s3-ec.buzzfed.com/static/enhanced/terminal05/2012/9/5/14/anigif_enhanced-buzz-30279-1346868475-16.gif",
+						"http://s3-ec.buzzfed.com/static/enhanced/web05/2012/9/5/14/anigif_enhanced-buzz-4425-1346868486-29.gif",
+						"http://s3-ec.buzzfed.com/static/enhanced/web03/2012/9/5/14/anigif_enhanced-buzz-18929-1346868504-2.gif"
+					);
+
+				    $('img').bind('mouseover', function() {
+		  				$(this).attr("src", rand[Math.floor(Math.random()*rand.length)]);
+					});
 				}
 			},
 			
